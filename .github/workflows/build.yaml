@@ -1,4 +1,4 @@
-name: Build
+name: Build for agents_land
 on:
   push:
     branches:
