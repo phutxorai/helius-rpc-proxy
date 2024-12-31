@@ -1,8 +1,9 @@
 name: Build for distilled_ai
 on:
+  workflow_dispatch:  # allow running workflow manually
   push:
     branches:
-      - distill-ai
+      - distilled-ai
 jobs:
   deploy:
     runs-on: ubuntu-latest
