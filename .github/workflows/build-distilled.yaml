@@ -2,7 +2,7 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - distill-ai
 jobs:
   deploy:
     runs-on: ubuntu-latest
